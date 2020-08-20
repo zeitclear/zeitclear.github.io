@@ -1,0 +1,251 @@
+/* CSS RESET */
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+body {
+    background-color: black;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12.5px;
+    color: rgba(255, 255, 255, 0.900);
+}
+
+#container {
+    width: 600px;
+    margin: auto auto;
+}
+
+/* BOX */
+
+#box {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.900);
+    border-top: 1px dashed rgba(255, 255, 255, 0.900);
+    margin-top: 30px;
+}
+
+/* NAV */
+
+#box nav ul {
+    padding: 10px;
+    text-align: right;
+}
+
+#box nav ul li {
+    margin-right: 3px;
+    display: inline-block;
+}
+
+#box nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#box nav ul li a:hover {
+    color: rgba(32, 32, 32, 0.781);
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+
+/* /~ */
+/* WELCOME */
+
+#welcome {
+    margin-top: 30px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.900);
+}
+
+#welcome h1 {
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+
+#welcome #last-articles {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(9, 243, 9);
+}
+
+
+#welcome #last-articles h3 {
+    color: rgba(255, 255, 255, 0.856);
+    font-weight: 500;
+}
+
+#welcome #last-articles ul {
+    margin-top: 25px;
+}
+
+#welcome #last-articles ul li {
+    margin-bottom: 5px;
+}
+
+#welcome #last-articles ul li a{
+    color: white;
+}
+
+#welcome #last-articles ul li a:hover {
+    color: rgba(32, 32, 32, 0.781);
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+
+/* LETTER PER LETTER */
+
+.letter-per-letter {
+    animation: type 3s;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+
+    100% {
+        width: 62ch;
+    }
+}
+
+#peace {
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* /aboutme */
+
+#aboutme {
+    margin-top: 30px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.900);
+}
+
+#aboutme h1{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 6px;
+    color: rgb(9, 243, 9);
+}
+
+#aboutme p{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 6px;
+    text-align: justify;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#aboutme ul {
+    text-align: right;
+}
+
+#aboutme ul li {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+#aboutme ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#aboutme ul li a:hover{
+    color: rgba(32, 32, 32, 0.781);
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+
+
+/* /articles */
+
+#articles {
+    margin-top: 30px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.900);
+    text-align: center;
+}
+
+#articles h1 {
+    font-size: 13px;
+    padding-bottom: 6px;
+    text-align: center;
+    color: rgb(9, 243, 9);
+    font-weight: 500;
+}
+
+#articles ul {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: rgb(9, 243, 9);
+}
+
+
+#articles ul li a{
+    color: white;
+    text-decoration: underline;
+}
+
+#articles ul li a:hover{
+    color: rgba(32, 32, 32, 0.781);
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+
+#article {
+    margin-top: 30px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.900);
+}
+
+#article h1 {
+    font-size: 12.5px;
+    padding-bottom: 6px;
+    text-align: left;
+    color: rgb(9, 243, 9);
+    font-weight: 500;
+}
+
+#article p {
+    margin-bottom: 25px; 
+    margin-top: 8px;
+    text-align: justify;
+}
+
+#article a {
+    color: rgb(0, 217, 255);
+    text-decoration: underline;
+}
+
+#article a:hover {
+    color: rgba(32, 32, 32, 0.781);
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+#article img{
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+.img-center {
+    text-align: center;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 600px) {
+    #container {
+        width: 350px;
+        margin: auto auto;
+    }
+
+    #article img {
+        width: 300px;
+    }
+}
