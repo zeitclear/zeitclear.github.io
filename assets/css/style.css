@@ -113,13 +113,6 @@ body {
     }
 }
 
-#peace {
-    padding: 15px;
-    text-align: center;
-    font-size: 25px;
-}
-
-
 /* /aboutme */
 
 #aboutme {
@@ -236,6 +229,20 @@ body {
     text-align: center;
 }
 
+
+#peace {
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#star {
+    color: rgb(123, 123, 172);
+}
+
+#star:hover {
+    color: rgb(221, 27, 156);
+}
 
 /* MEDIA QUERIES */
 
