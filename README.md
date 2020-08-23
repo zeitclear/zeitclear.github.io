@@ -1,4 +1,4 @@
-# **My simple static website with articles and tutorials.**
+# **:zap: My simple static website with articles and tutorials.**
 
  
  
